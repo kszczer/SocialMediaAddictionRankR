@@ -1,16 +1,16 @@
 Package: SocialMediaAddictionRankR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: SocialAddictionRankR: Pakiet R do analizy i wykazu najbardziej uzależniających platform mediów społecznościowych wśród studentów z wykorzystaniem metod FuzzyVIKOR i Fuzzy TOPSIS i Teorii Dominacji
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Klara", "Szczerbińska",
+      email = "klaraszczerbinska@gmail.com",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: Celem projektu jest stworzenie rankingu najbardziej uzależniających platform mediów społecznościowych wśród studentów na podstawie danych z zestawu “Students Social Media Addiction” (Kaggle).
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+
