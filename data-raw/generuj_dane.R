@@ -58,11 +58,3 @@ social_media_data$most_used_platform <- as.character(social_media_data$most_used
 # Dzięki temu dane będą dostępne po wydaniu komendy data("social_media_data")
 usethis::use_data(social_media_data, overwrite = TRUE)
 
-# --- KOMUNIKATY KONTROLNE ---
-message("---")
-message("Sukces! Obiekt 'social_media_data' został poprawnie przygotowany.")
-message("Metodologia: Losowanie warstwowe (Stratified Sampling), N=50 na platformę.")
-message("Łączna liczba obserwacji: ", nrow(social_media_data))
-message("Platformy w zbiorze: ", paste(unique(social_media_data$most_used_platform), collapse = ", "))
-message("---")
-
